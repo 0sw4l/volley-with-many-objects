@@ -194,4 +194,4 @@ public void JsonParser(JSONObject response){
 // voila
 ```
 
-#Thanks for being amazing alda❣
+#Thanks for being amazing, alda❣
