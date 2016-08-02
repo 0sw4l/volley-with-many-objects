@@ -1,6 +1,6 @@
 # Volley with many objects in json array
 
-this repository shows how you can consume services on android with volleyball as http library.
+this repository shows how you can consume services on android with volley as http library.
 
 **you will learn how**
 - consume the api of the openweathermap.org.
@@ -144,7 +144,7 @@ public void runApi(String c) {
         new Response.ErrorListener() {
             @Override
             public void onErrorResponse(VolleyError error) {
-                Log.d("JSON ERROR : ", "Error Respuesta en JSON: " + error.getMessage());
+                Log.d("Api Error : ", "Error : " + error.getMessage());
             }
         }
         );
