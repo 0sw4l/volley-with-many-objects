@@ -1,4 +1,4 @@
-# Volley with many objects
+# Volley with many objects in json array
 
 this repository shows how you can consume services on android with volleyball as http library.
 
@@ -138,7 +138,7 @@ public void runApi(String c) {
         new Response.Listener<JSONObject>() {
             @Override
             public void onResponse(JSONObject response) {
-                        // get data of request and send to parse
+                // get data of request and send to parse
                 JsonParser(response);
             }
         },
@@ -149,7 +149,7 @@ public void runApi(String c) {
             }
         }
         );
-        //  json array to the request queue is added
+    //  json array to the request queue is added
     requestQueue.add(jsArrayRequest);
 }
 ```
