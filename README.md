@@ -68,7 +68,7 @@ this repository shows how you can consume services on android with volleyball as
 }
 ```
 
-**firt steep**
+**first steep**
   - put this in graddle
   - ```compile 'com.android.volley:volley:1.0.0'```
   - put internet permissions in the manifest
