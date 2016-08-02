@@ -12,12 +12,11 @@ this repository shows how you can consume services on android with volleyball as
  "coord": {
     "lon": -74.8,
     "lat": 10.96
-  },  "main": {
-    
-  "temp": 300.15, 
+  },  
+  "main": {
+    "temp": 300.15, 
     ... 
   },  
-  
   "wind": {
     "speed": 1.5,
     "deg": 320
