@@ -172,7 +172,7 @@ public void JsonParser(JSONObject response){
 
             // obtaining the value of temp inside main: "temp": 300.15 ...
             temperatura = main.getString("temp");
-            // cambiando el valor del EditText
+            // set text of editText mTemperatura
             mTemperatura.setText(temperatura);
 
             //objects in coord ... the same is repeated
